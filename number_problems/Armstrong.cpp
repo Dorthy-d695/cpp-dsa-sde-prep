@@ -18,7 +18,6 @@
 
 using namespace std;
 #include<iostream>
-#include<conio.h>
 #include<math.h>
 int main(){
     int n;
@@ -43,6 +42,6 @@ int main(){
     else{
         cout<<n<<" is not a Armstrong Number";
     }
-    getch();
+    cin.get();
     return 0;
 }
